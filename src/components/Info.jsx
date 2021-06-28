@@ -1,13 +1,12 @@
 import React from "react";
 
-function info(){
-    return (
+function Info() {
+  return (
     <div class="note">
-    <h1>Copyright by ShapeAI @{new Date.getFullYear()}</h1>
-    <p>A basic web dev React JS bootcamp</p>
+      <h1>Javascript and react.JS</h1>
+      <p>A basic web dev React JS bootcamp</p>
     </div>
-
-    );
+  );
 }
 
-export default info;
+export default Info;
